@@ -1,0 +1,10 @@
+#EXTM3U
+#EXT-X-VERSION:3
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=1400000,RESOLUTION=842x480
+https://vod.deflax.net/hls/test_480p/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=2800000,RESOLUTION=1280x720
+https://vod.deflax.net/hls/test_720p/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=1,BANDWIDTH=5000000,RESOLUTION=1920x1080
+https://vod.deflax.net/hls/test_1080p/index.m3u8
+#EXT-X-STREAM-INF:PROGRAM-ID=2,BANDWIDTH=1400000
+https://vod.deflax.net/fallback/network.m3u8
