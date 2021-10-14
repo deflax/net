@@ -10,7 +10,16 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" integrity="undefined" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.13.1/video-js.min.css" integrity="sha512-jcP4tYp8Amr7a0Kwlki1BlFguJJNhNBTHNB+JKOAsYiNFYRG+pjgn3u6RTYH6TBQlFawfI1uIUyovWRM9+E2LA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src='https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' async defer>
+        new Crate({
+            location: ['bottom', 'left'],
+            server: '703156364846956634', 
+            channel: '898288413843804160' // #lounge
+        })
+    </script>
 </head>
+
 <body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="undefined" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/video.js/7.13.1/video.min.js" integrity="sha512-sNh1gQxAmUd6ANTznn8PFvU683RGxqbuoX6vwOr41gobXMdM33WLjs9q43nEjhBvu2o56vUTV+e83dF3dMx1Gg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -71,20 +80,19 @@
     <!-- Main component for a primary marketing message or call to action -->
     <div class="jumbotron">
 
-  <p>Streaming from the monolith.</p>
+  <p>Streaming from the monolith. Radio <i class="fa fa-volume-up" aria-hidden="true"></i> is powered by Anima Amoris dubtechno stream. thank you for stopping by!
+    </p>
+</div>
 
 <div id="lounge" class="container-fluid p-3 my-3 bg-dark text-white">
   <h1>o7^ lounge</h1>
-  <div class="row">
-    <div class="col-lg-4" style="background-color:#3d5c5c;">
-      3D model "Twin Peaks Black Lodge Remake (low-poly)" by pan.stasian
-      <img src="lounge.png"></img>
-   </div>
-    <div class="col-lg-8" style="background-color:black;">
-    the visitant lounge radio <i class="fa fa-volume-up" aria-hidden="true"></i> is powered by anima amoris dubtechno stream. thank you for stopping by!
-    <iframe src="https://minnit.chat/deflax?embed&&nickname=" style="border:none;width:100%;height:714px;" allowTransparency="true"></iframe><br>
-   </div>
-  </div>
+<widgetbot
+  server="703156364846956634"
+  channel="898288413843804160"
+  width="100%"
+  height="600"
+></widgetbot>
+<script src="https://cdn.jsdelivr.net/npm/@widgetbot/html-embed"></script>
 </div>
 
 <div id="friends" class="container-fluid p-3 my-3 bg-dark text-white">
