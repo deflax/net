@@ -85,3 +85,9 @@
   background-color: black;
 }
 
+.earthroot iframe {width: 100%; height: 100%; border: none; margin: 0; padding: 0; display: block;}
+
+.row-container {display: table; empty-cells: show; border-collapse: collapse; width: 100%; height: 100%;}
+.first-row {display: table-row; overflow: auto; background-color: lime;}
+.second-row {display: table-row; height: 100%; background-color: red; overflow: hidden }
+.second-row iframe {width: 100%; height: 100%; border: none; margin: 0; padding: 0; display: block;}
